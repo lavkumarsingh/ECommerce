@@ -1,0 +1,21 @@
+{
+  "name": "myntra",
+  "version": "1.0.0",
+  "description": "ECommerce platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon server.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon server.js"
+  },
+  "author": "Lav Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
